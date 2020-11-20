@@ -55,11 +55,11 @@ int main() {
 	printf("Please type a text of all characters and spaces: ");
 	gets(sentence);
 	length = strlen(sentence);
-    //have to subtract 1, because length inlcudes the null char
+    	//have to subtract 1, because length inlcudes the null char
 	
 
-    //get value to encrypt by
-    printf("\nPlease type the key value to encrypt by: ");
+    	//get value to encrypt by
+    	printf("\nPlease type the key value to encrypt by: ");
 	scanf("%d", &key);
 
 	//If no input, end program
